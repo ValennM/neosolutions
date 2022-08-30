@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link
+        rel="icon"
+        type="image/png"
+        href="../assets/images/logo-neosolutions-Convertido.png"
+    />
+    <link rel="stylesheet" href="../css/style2.css" />
+</head>
+<body>
+    <header>
+        <img class="logo"
+            src="../assets/images/logo-neosolutions-Convertido.png"
+            width="250px"
+        />
+        <nav>
+        <ul class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about-us.html">About</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+            <li><a href="../pages/services.html">Services</a></li>
+            <li><a href="../pages/faqs.html">FAQs</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="doubts">
+        <p>Have any doubt, suggestion or question for us? Feel free to fill in the form below and one of our agents will provide an answer as soon as possible:</p>
+        </div>
+
+        <h1 class="getintouch">Get in touch!</h1>
+
+		<form action="" class="formulario" id="formulario">
+
+			<!-- Grupo: Nombre -->
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Name</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="John Doe">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">#</p>
+			</div>
+
+			<!-- Grupo: Correo Electronico -->
+			<div class="formulario__grupo" id="grupo__correo">
+				<label for="correo" class="formulario__label">Email</label>
+				<div class="formulario__grupo-input">
+					<input type="email" class="formulario__input" name="correo" id="correo" placeholder="email@email.com">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">#</p>
+			</div>
+
+			<!-- Grupo: Teléfono -->
+			<div class="formulario__grupo" id="grupo__telefono">
+				<label for="telefono" class="formulario__label">Phone Number</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="4491234567">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">#</p>
+			</div>
+
+            <!-- Grupo: Consultas -->
+			<div class="formulario__grupo" id="grupo__correo">
+				<label for="correo" class="formulario__label">Comments/Questions</label>
+				<div class="formulario__grupo-input">
+					<input type="email" class="formulario__input" name="correo" id="correo" placeholder="...">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">#</p>
+			</div>
+
+			<!-- Grupo: Terminos y Condiciones -->
+			<div class="formulario__grupo" id="grupo__terminos">
+				<label class="formulario__label">
+					<input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos" />
+					<h6 class="terms">Accept the terms and conditions</h6>
+				</label>
+			</div>
+
+			<div class="formulario__mensaje" id="formulario__mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+			</div>
+
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button type="submit" class="formulario__btn">Send</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Form sent successfully!</p>
+			</div>
+		</form>
+    </main>
+	<script src="js/formulario.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+        <footer>
+            <div class="icon">
+                <a tittle="Instagram" href="https://www.instagram.com/">
+                <img class="instagram" src="../assets/images/87390.png" alt="Instagram" width="25px"
+                /></a>
+            </div>
+        
+            <div class="icon">
+            <a tittle="Facebook" href="https://www.facebook.com/">
+            <img class="facebook" src="../assets/images/59439.png" alt="Facebook" width="25px"
+            /></a>
+            </div>
+        
+            <div class="icon">
+            <a tittle="Twitter" href="https://twitter.com/">
+            <img class="twitter" src="../assets/images/25660.png" alt="Twitter" width="25px"
+            />
+                
+            </div>
+        
+            <div class="menufooter">
+            <ol>
+                <li><a href="./about-us.html">About</a></li>
+                <li><a href="./wip.html">Privacy policy</a></li>
+                <li><a href="./wip.html">Terms of Service</a></li>
+                <li><a href="./wip.html">Cookie Settings</a></li>
+            </ol>
+            </div>
+        
+        
+            <h5 class="creador">
+                © Website created by
+                <a href="https://www.linkedin.com/">Valentin Mammana</a>
+            </h5>
+        </footer>
+</body>
+</html>

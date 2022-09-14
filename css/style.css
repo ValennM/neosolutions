@@ -21,7 +21,6 @@ footer {
 
         border-radius: 40%;
         transition: all .6s;
-        cursor: pointer;
         background-color: #00b8e6;
         box-shadow:  0 0 20px #00b8e6;
         border-radius: 0%;
@@ -46,7 +45,7 @@ footer {
     position: absolute;
     width: 45px;
     height: 40px;
-    left: 120px;
+    left: 985px;
 }
 .twitter:hover {
     background-color: #00b8e6;
@@ -58,7 +57,7 @@ footer {
     position: absolute;
     width: 45px;
     height: 40px;
-    left: 60px;
+    left: 925px;
 }
 .facebook:hover {
     background-color: #566df0;
@@ -67,10 +66,10 @@ footer {
 }
 
 .instagram {
-    display: flex;
+    position: absolute;
     width: 45px;
     height: 40px;
-    left: 15px;
+    left: 865px;
 }
 .instagram:hover {
     background-color: #e600b4;

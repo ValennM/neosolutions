@@ -10,94 +10,136 @@
         type="image/png"
         href="../assets/images/logo-neosolutions-Convertido.png"
     />
-    <link rel="stylesheet" href="../css/style2.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css" />
 </head>
-<body>
+<body class="hero">
     <header>
-        <img class="logo"
-            src="../assets/images/logo-neosolutions-Convertido.png"
-            width="250px"
-        />
-        <nav>
-        <ul class="menu">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../pages/about-us.html">About</a></li>
-            <li><a href="../pages/contact.html">Contact</a></li>
-            <li><a href="../pages/services.html">Services</a></li>
-            <li><a href="../pages/faqs.html">FAQs</a></li>
-        </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                <img src="../assets/images/logo-neosolutions-Convertido.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                NeoSolutions
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../pages/about-us.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../pages/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../pages/services.html">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Terms and service
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../pages/faqs.html">FAQs</a></li>
+                        <li><a class="dropdown-item" href="../pages/wip.html">Privacy policy</a></li>
+                        <li><a class="dropdown-item" href="../pages/wip.html">Cookie settings</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                </div>
+                </div>
+            </nav>
     </header>
 
     <main>
-        <div class="doubts">
-        <p>Have any doubt, suggestion or question for us? Feel free to fill in the form below and one of our agents will provide an answer as soon as possible:</p>
-        </div>
 
-        <h1 class="getintouch">Get in touch!</h1>
 
-		<form action="" class="formulario" id="formulario">
+        <h1 class="p-5 d-flex justify-content-center align-items-center">Get in touch!</h1>
 
-			<!-- Grupo: Nombre -->
-			<div class="formulario__grupo" id="grupo__nombre">
-				<label for="nombre" class="formulario__label">Name</label>
-				<div class="formulario__grupo-input">
-					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="John Doe">
-					<i class="formulario__validacion-estado fas fa-times-circle"></i>
-				</div>
-				<p class="formulario__input-error">#</p>
-			</div>
 
-			<!-- Grupo: Correo Electronico -->
-			<div class="formulario__grupo" id="grupo__correo">
-				<label for="correo" class="formulario__label">Email</label>
-				<div class="formulario__grupo-input">
-					<input type="email" class="formulario__input" name="correo" id="correo" placeholder="email@email.com">
-					<i class="formulario__validacion-estado fas fa-times-circle"></i>
-				</div>
-				<p class="formulario__input-error">#</p>
-			</div>
 
-			<!-- Grupo: Teléfono -->
-			<div class="formulario__grupo" id="grupo__telefono">
-				<label for="telefono" class="formulario__label">Phone Number</label>
-				<div class="formulario__grupo-input">
-					<input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="4491234567">
-					<i class="formulario__validacion-estado fas fa-times-circle"></i>
-				</div>
-				<p class="formulario__input-error">#</p>
-			</div>
+        
+        
+        <section class="p-5 container">
+            <div class="row mt-5 gap-4 gap-md-0">
+                <div class="col-md-6">
+                    <h4>Contact Information</h4>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Phone
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            11 23 456 7890
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Adress
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            Fake adress 1234
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Email
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            example@info.com
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Message
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                For prices or FAQs please visit services and FAQs
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4>Send us a message</h4>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Carl Burk">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e-mail">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write your message" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
 
-            <!-- Grupo: Consultas -->
-			<div class="formulario__grupo" id="grupo__correo">
-				<label for="correo" class="formulario__label">Comments/Questions</label>
-				<div class="formulario__grupo-input">
-					<input type="email" class="formulario__input" name="correo" id="correo" placeholder="...">
-					<i class="formulario__validacion-estado fas fa-times-circle"></i>
-				</div>
-				<p class="formulario__input-error">#</p>
-			</div>
-
-			<!-- Grupo: Terminos y Condiciones -->
-			<div class="formulario__grupo" id="grupo__terminos">
-				<label class="formulario__label">
-					<input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos" />
-					<h6 class="terms">Accept the terms and conditions</h6>
-				</label>
-			</div>
-
-			<div class="formulario__mensaje" id="formulario__mensaje">
-				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
-			</div>
-
-			<div class="formulario__grupo formulario__grupo-btn-enviar">
-				<button type="submit" class="formulario__btn">Send</button>
-				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Form sent successfully!</p>
-			</div>
-		</form>
-    </main>
-	<script src="js/formulario.js"></script>
-	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+        </main>
 
         <footer>
             <div class="icon">
@@ -108,7 +150,7 @@
         
             <div class="icon">
             <a tittle="Facebook" href="https://www.facebook.com/">
-            <img class="facebook" src="../assets/images/59439.png" alt="Facebook" width="25px"
+            <img class="facebook d-flex justify-content-center align-items-center" src="../assets/images/59439.png" alt="Facebook" width="25px"
             /></a>
             </div>
         
@@ -118,21 +160,8 @@
             />
                 
             </div>
-        
-            <div class="menufooter">
-            <ol>
-                <li><a href="./about-us.html">About</a></li>
-                <li><a href="./wip.html">Privacy policy</a></li>
-                <li><a href="./wip.html">Terms of Service</a></li>
-                <li><a href="./wip.html">Cookie Settings</a></li>
-            </ol>
-            </div>
-        
-        
-            <h5 class="creador">
-                © Website created by
-                <a href="https://www.linkedin.com/">Valentin Mammana</a>
-            </h5>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

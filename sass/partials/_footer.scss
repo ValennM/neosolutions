@@ -1,0 +1,54 @@
+footer {
+    padding: 1em 0;
+    display:flex;
+    bottom: 0;
+    width: 100%;
+}
+
+.icon {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 820px;
+    margin: 15px;
+    border-radius: 40%;
+    transition: all .8s;
+    cursor: pointer;
+}
+
+
+.twitter {
+position: absolute;
+width: 45px;
+height: 40px;
+left: 985px;
+}
+.twitter:hover {
+background-color: #00b8e6;
+box-shadow:  0 0 20px #00b8e6;
+border-radius: 100%;
+}
+
+.facebook {
+position: absolute;
+width: 45px;
+height: 40px;
+left: 925px;
+}
+.facebook:hover {
+background-color: #566df0;
+box-shadow:  0 0 20px #566df0;
+border-radius: 100%;
+}
+
+.instagram {
+position: absolute;
+width: 45px;
+height: 40px;
+left: 865px;
+}
+.instagram:hover {
+background-color: #e600b4;
+box-shadow:  0 0 20px #e600b4;
+border-radius: 30%;
+}
